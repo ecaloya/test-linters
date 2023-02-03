@@ -1,0 +1,20 @@
+@keyframes slidein {
+    from {
+      opacity: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  
+  @media (prefers-reduced-motion : no-preference ) {
+    .animation {
+      animation: fadeIn 4s ease;
+    }
+  }
+  .animation {
+    animation: fadeIn 4s ease;
+  }

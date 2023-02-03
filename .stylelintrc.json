@@ -1,0 +1,36 @@
+{
+  "rules": {
+    "rules/nonstandardfonts": [
+      true,
+      {
+        "severity": "warning"
+      }
+    ],
+    "rules/animation": [
+      true,
+      {
+        "severity": "warning"
+      }
+    ],
+    "rules/resize": [
+      true,
+      {
+        "severity": "warning"
+      }
+    ]
+  },
+  "plugins": [
+    "./rules/css_fonts.js",
+    "./rules/css_animation.js",
+    "./rules/css_image_resize.js"
+  ],
+  "overrides": [
+    {
+      "files": [
+        "*.html",
+        "**/*.html"
+      ],
+      "customSyntax": "postcss-html"
+    }
+  ]
+}

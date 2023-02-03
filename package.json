@@ -1,0 +1,22 @@
+{
+  "name": "test_gpe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@html-eslint/eslint-plugin": "^0.15.0",
+    "@html-eslint/parser": "^0.15.0",
+    "eslint": "^8.26.0",
+    "eslint-plugin-css": "^0.6.0",
+    "eslint-plugin-html": "^7.1.0",
+    "eslint-plugin-react": "^7.32.1",
+    "postcss-html": "^1.5.0",
+    "stylelint": "^14.16.1",
+    "stylelint-config-standard": "^29.0.0"
+  }
+}

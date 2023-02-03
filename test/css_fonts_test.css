@@ -1,0 +1,13 @@
+#main {
+  border: 1px solid black;
+  font-family: "Open Sans", "PT Sans", Calibri, Tahoma, Monaco, sans-serif;
+}
+
+@font-face {
+  font-family: "Fira Sans";
+  src: url("fonts/fira/eot/FiraSans-Regular.eot");
+  src: url("fonts/fira/eot/FiraSans-Regular.eot") format("embedded-opentype"),
+    url("fonts/fira/woff2/FiraSans-Regular.woff2") format("woff2"),
+    url("fonts/fira/woff/FiraSans-Regular.woff") format("woff"),
+    url("fonts/fira/woff2/FiraSans-Regular.ttf") format("truetype");
+}
